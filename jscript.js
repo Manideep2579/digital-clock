@@ -23,17 +23,22 @@ function printTime() {
         day = "Sunday";
         break;
         case 1:
-            day: "Monday";
+            day= "Monday";
             break;
-            case 2 : "Tuesday";
+            case 2 : 
+            day="Tuesday";
             break;
-            case 3 : "Wednesday";
+            case 3 :
+                day= "Wednesday";
             break;
-            case 4 : "Thursday";
+            case 4 :
+                day= "Thursday";
             break;
-            case 5 : "Friday";
+            case 5 : 
+            day="Friday";
             break;
-            case 6 : "Saturday";
+            case 6 : 
+            day="Saturday";
             break;   
 
     } 
@@ -53,7 +58,7 @@ function printTime() {
 
     month = month + 1;
     document.getElementById('clock').innerHTML= hours + ":" + minutes + ":" + seconds;
-    document.getElementById('day-date').innerHTML = day + ","  + month + "," + year;
+    document.getElementById('day-date').innerHTML = day + "," +date + "." + month + "." + year;
 
  
 }
